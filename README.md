@@ -3,13 +3,13 @@
 # Battle à la carte Unity版（3D版）
 
 Web版とは別の、新しい作品です。Windows 64-bit／Android ARM64向けのダウンロードゲームです。
-**v0.4.0 — 2026-09-27 リリース**（Windows・Android）。
+**v0.5.0 — 2026-09-30 リリース**（Windows・Android）。
 
 ## ダウンロードと対応環境
 
-- [Windows ZIP v0.4.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.4.0/BattleALaCarte-3D-Windows-v0.4.0.zip)
-- [Android試験版 APK v0.4.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.4.0/BattleALaCarte-3D-Android-v0.4.0.apk)
-- [v0.4.0 リリース情報](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/tag/v0.4.0)
+- [Windows ZIP v0.5.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.5.0/BattleALaCarte-3D-Windows-v0.5.0.zip)
+- [Android試験版 APK v0.5.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.5.0/BattleALaCarte-3D-Android-v0.5.0.apk)
+- [v0.5.0 リリース情報](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/tag/v0.5.0)
 - [ダウンロードサイト](https://donadonaa24-cyber.github.io/battle-a-la-carte-3d/)
 - [Web版（PC版・スマホ版）](https://donadonaa24-cyber.github.io/battle-a-la-carte--/)
 
@@ -21,12 +21,20 @@ ZIPをすべて展開し、`BattleALaCarte.exe`を起動してください。
 ### Android ARM64（Android 8.0以降）
 
 APKをダウンロードし、「不明なアプリのインストール」を許可してインストールしてください。
-同じパッケージのため、v0.3.xから更新できます。Google Play外の試験版です。
+同じパッケージのため、以前の版から上書きで更新できます。Google Play外の試験版です。
 Android版での通信対戦は未確認です。
 
-Unity版はWebGL・ブラウザプレイおよびiPhoneに対応していません。
+Unity版は現在、WebGL・ブラウザプレイおよびiPhoneには対応していません。今後、Mac版・iPhone版を実装予定です（公開時期は未定）。
 
-## v0.4.0 の更新内容
+## v0.5.0 の更新内容
+
+- ミッション（6種）を追加。ストーリー第1話のクリアで解放され、条件を守って勝つとカードスリーブ（カードの裏面デザイン）がもらえます。
+- バランス調整：スキル「ロマン仕込み」の追加（まかない補給と入れ替え）、加工アイテムの交換点数の見直し、先攻の1ターン目はイベント不可、まな板の逆転効果（負けているとき対戦中1回、イベント1枚を捨てて1枚引く）など。
+- 遊びやすさ：お気に入りキャラ・スキル、盤面の加工アイテム表示、料理履歴・ログのボタン、BGM選択、選び直しの簡単化、使えるスキルの発光、勝ち方の大きな表示。
+- 演出：料理完成演出、10点料理の特別演出、スキルカットイン、Battle à la carte Modeの覚醒演出、起動時タイトルとメニューのプレイ動画。
+- 通信対戦で新しいルールを使うには、部屋を作るWeb版も最新である必要があります（Web版は更新済み）。
+
+## v0.4.0 の更新内容（2026-09-27）
 
 - タイトル画面、デイリーログインボーナス、あにあにアカウントのログイン・新規登録、共通コイン表示を追加。
 - メニュー演出とクレジットを追加。
@@ -57,4 +65,4 @@ Unity版はWebGL・ブラウザプレイおよびiPhoneに対応していませ�
 
 このリポジトリは紹介ページと配布用の管理リポジトリです。
 GitHub Pagesは`main`のルートを静的配信します。
-v0.4.0の配布ファイルは、このリポジトリのGitHub Release `v0.4.0`へアップロード予定です。
+配布ファイルは、このリポジトリのGitHub Releasesにバージョンごとに置いています（最新は `v0.5.0`）。
