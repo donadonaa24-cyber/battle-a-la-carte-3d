@@ -9,6 +9,9 @@
 :root{color-scheme:dark;--ink:#eaf7ff;--accent:#9de2ff;--gold:#ffcf88;--line:#9de2ff38}
 *{box-sizing:border-box}body{margin:0;color:var(--ink);background:radial-gradient(ellipse at 80% 0%,#153954,transparent 65%),#050c16;font-family:Georgia,'Yu Mincho',serif;line-height:1.8}main{max-width:1120px;margin:auto;padding:48px max(24px,env(safe-area-inset-right)) 60px max(24px,env(safe-area-inset-left))}nav{display:flex;gap:24px;flex-wrap:wrap}a{color:var(--accent)}.label{font:12px monospace;letter-spacing:.2em;color:var(--accent);margin-top:72px}h1{font-size:clamp(36px,6vw,76px);line-height:1.1;font-weight:400;margin:24px 0}h1 span{font-size:clamp(20px,3vw,32px);display:block;color:var(--gold);margin-top:20px}.lead{max-width:640px;font-size:18px}img{width:100%;border:1px solid var(--line);border-radius:16px;margin:24px 0;box-shadow:0 24px 80px #0009}.actions{display:flex;gap:16px;flex-wrap:wrap;margin:32px 0}.button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;border:1px solid var(--accent);border-radius:8px;padding:12px 24px;text-decoration:none;background:var(--accent);color:#082033;font-family: sans-serif;font-weight:700}.secondary{background:transparent;color:var(--ink)}section{border-top:1px solid var(--line);padding-top:24px;margin-top:40px}h2{font-size:24px}.notice{color:var(--gold)}.rights-notice{margin-top:40px;padding:14px 16px;border:1px solid #ffcf8860;border-radius:8px;background:#2a180b66;color:var(--gold);font:700 13px sans-serif}footer{font:12px monospace;letter-spacing:.15em;opacity:.7;margin-top:28px}@media(max-width:600px){main{padding-top:24px}.label{margin-top:40px}.actions{flex-direction:column}.button{width:100%}.lead{font-size:16px}}
 </style>
+<style>
+.screen-hero{margin:24px 0}.screen-hero img{display:block;margin:0;aspect-ratio:16/9;height:auto}.screen-hero figcaption{margin-top:10px;color:#a7bbc8;font:13px/1.7 sans-serif}.screenshot-link{display:block;border-radius:16px}.screenshot-link:focus-visible{outline:3px solid var(--gold);outline-offset:5px}.screenshot-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:24px}.screenshot-grid figure{min-width:0;margin:0}.screenshot-grid img{display:block;aspect-ratio:16/9;height:auto;margin:0}.screenshot-grid figcaption{padding:12px 0;font:14px/1.7 sans-serif;color:#a7bbc8}.screenshot-grid strong{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}.gallery-note{color:#a7bbc8;font:14px/1.7 sans-serif}@media(max-width:700px){.screenshot-grid{grid-template-columns:1fr;gap:24px}}
+</style>
 </head>
 <body><main>
 <nav><a href="https://donadonaa24-cyber.github.io/aniani-asobiba/">あにあにの遊び場へ</a><a href="https://donadonaa24-cyber.github.io/battle-a-la-carte--/">既存Web版はこちら</a></nav>
@@ -16,9 +19,15 @@
 <h1>Battle à la carte<span>Unity版（3D版）</span></h1>
 <p class="lead">3Dの調理台で、あなただけの一皿を。<br>材料カードを集め、料理を完成させて得点を競う料理カード対戦ゲーム。CPU戦・ストーリーに加え、通信対戦を試験提供。</p>
 <p class="notice">Windows・Android v0.5.0 / リリース日：2026-09-30</p>
-<img src="battle-3d.png" alt="3Dの調理台に材料カードが並ぶUnity版の対戦画面">
+<figure class="screen-hero"><a class="screenshot-link" href="images/battle-3d-20261001.webp" target="_blank" rel="noopener noreferrer" aria-label="Unity版の対戦画面を大きく表示"><img src="images/battle-3d-20261001.webp" alt="現在のUnity版の対戦画面。イラスト入りの3D調理台に食材と加工アイテムが並び、上部に料理履歴・ログ・メニューがある" width="1600" height="900" fetchpriority="high"></a><figcaption>Windows版の対戦画面。画像を押すと大きく表示できます。</figcaption></figure>
 <div class="actions"><a class="button" href="https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.5.0/BattleALaCarte-3D-Windows-v0.5.0.zip">Windows ZIP v0.5.0</a><a class="button" href="https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.5.0/BattleALaCarte-3D-Android-v0.5.0.apk">Android試験版 APK v0.5.0</a><a class="button secondary" href="https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/tag/v0.5.0">リリース情報</a></div>
 <section><h2>Web版とは別の、新しい作品</h2><p>Unityによる3D調理台と料理演出で楽しむ、Web版とは別の作品です。CPU戦・ストーリーモード・ミッションに加え、あにあにアカウントのログイン・新規登録と共通コイン表示に対応。Web版で作られた部屋に参加する通信対戦も試験提供します。</p></section>
+<section aria-labelledby="screenshots-title"><h2 id="screenshots-title">実際のゲーム画面</h2><p class="gallery-note">Windows版のメニュー・ミッション・カードスリーブ。画像を押すと大きく表示できます。</p>
+<div class="screenshot-grid">
+<figure><a class="screenshot-link" href="images/menu-20261001.webp" target="_blank" rel="noopener noreferrer" aria-label="メインメニューを大きく表示"><img src="images/menu-20261001.webp" alt="現在のUnity版メインメニュー。プレイ動画とカード演出、対戦・ストーリー・ミッションへのボタン" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>メインメニュー</strong>対戦、ストーリー・ミッションへ。プレイ動画とカードが迎えます。</figcaption></figure>
+<figure><a class="screenshot-link" href="images/missions-20261001.webp" target="_blank" rel="noopener noreferrer" aria-label="ミッション一覧を大きく表示"><img src="images/missions-20261001.webp" alt="6種類のミッションとクリア条件、報酬のカードスリーブが並ぶ画面" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>ミッション</strong>条件を守って勝利。6種類のミッションで報酬スリーブを集めよう。</figcaption></figure>
+<figure><a class="screenshot-link" href="images/sleeves-20261001.webp" target="_blank" rel="noopener noreferrer" aria-label="カードスリーブ選択を大きく表示"><img src="images/sleeves-20261001.webp" alt="カードスリーブ選択画面。標準スリーブとミッション報酬の裏面デザイン" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>カードスリーブ</strong>集めた裏面デザインから、自分の画面に表示するスリーブを選べます。</figcaption></figure>
+</div></section>
 <section><h2>v0.5.0 アップデート</h2><p>2026-09-30 リリース。ミッションとカードスリーブを追加し、ゲームバランスと遊びやすさを見直しました。</p>
 <ul>
 <li>ミッション（6種）を追加。ストーリー第1話のクリアで解放され、条件を守って勝つとカードスリーブ（カードの裏面デザイン）がもらえます。ログイン中は記録がアカウントに保存され、Web版と共有されます。</li>
@@ -36,7 +45,7 @@
 <li>テーブルのイラストをプレイヤー向きにし、セット・強化ゾーンを透過表示に変更。</li>
 <li>Windows版の黒画面の問題を修正。</li>
 </ul></section>
-<section><h2>遊び方と対応環境</h2><p><strong>Windows 64-bit:</strong> ZIPをすべて展開し、BattleALaCarte.exeを起動してください。同梱のフォルダ・ファイルはそのまま一緒に保管し、移動・削除しないでください。</p><p><strong>Android試験版:</strong> Android 8.0以降のARM64端末が対象です。APKをダウンロードし、「不明なアプリのインストール」を許可してインストールしてください。同じパッケージのため、以前の版から上書きで更新できます。Google Play外の試験版です。</p><p class="notice">Unity版はWebGL・ブラウザプレイおよびiPhoneに対応していません。Android版での通信対戦は未確認です。</p></section>
+<section><h2>遊び方と対応環境</h2><p><strong>Windows 64-bit:</strong> ZIPをすべて展開し、BattleALaCarte.exeを起動してください。同梱のフォルダ・ファイルはそのまま一緒に保管し、移動・削除しないでください。</p><p><strong>Android試験版:</strong> Android 8.0以降のARM64端末が対象です。APKをダウンロードし、「不明なアプリのインストール」を許可してインストールしてください。同じパッケージのため、以前の版から上書きで更新できます。Google Play外の試験版です。</p><p class="notice">Unity版は現在、WebGL・ブラウザプレイおよびiPhoneには対応していません。今後、Mac版・iPhone版を実装予定です（公開時期は未定）。Android版での通信対戦は未確認です。</p></section>
 <section><h2>通信対戦のやり方</h2>
 <ol>
 <li><a href="https://donadonaa24-cyber.github.io/battle-a-la-carte--/">Web版</a>（PC版またはスマホ版）で「オンライン対戦」を開き、合言葉の部屋または公開部屋を作ります。</li>
