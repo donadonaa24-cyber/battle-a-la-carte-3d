@@ -3,13 +3,13 @@
 # Battle à la carte Unity版（3D版）
 
 Web版とは別の、新しい作品です。Windows 64-bit／Android ARM64向けのダウンロードゲームです。
-**v0.5.0 — 2026-09-30 リリース**（Windows・Android）。
+**v0.6.0 — 2026-10-11 リリース**（Windows・Android）。
 
 ## ダウンロードと対応環境
 
-- [Windows ZIP v0.5.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.5.0/BattleALaCarte-3D-Windows-v0.5.0.zip)
-- [Android試験版 APK v0.5.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.5.0/BattleALaCarte-3D-Android-v0.5.0.apk)
-- [v0.5.0 リリース情報](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/tag/v0.5.0)
+- [Windows ZIP v0.6.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.6.0/BattleALaCarte-3D-Windows-v0.6.0.zip)
+- [Android試験版 APK v0.6.0](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/download/v0.6.0/BattleALaCarte-3D-Android-v0.6.0.apk)
+- [v0.6.0 リリース情報](https://github.com/donadonaa24-cyber/battle-a-la-carte-3d/releases/tag/v0.6.0)
 - [ダウンロードサイト](https://donadonaa24-cyber.github.io/battle-a-la-carte-3d/)
 - [Web版（PC版・スマホ版）](https://donadonaa24-cyber.github.io/battle-a-la-carte--/)
 
@@ -26,7 +26,18 @@ Android版での通信対戦は未確認です。
 
 Unity版は現在、WebGL・ブラウザプレイおよびiPhoneには対応していません。今後、Mac版・iPhone版を実装予定です（公開時期は未定）。
 
-## v0.5.0 の更新内容
+## v0.6.0 の更新内容（2026-10-11）
+
+- ストーリーを全15話に：再会編（第1〜3話）、出会い・文化祭編（第4〜10話）、特別編（夏休み編・ハロウィン編・弓道編・幼馴染編 前編／後編）。アイコンつきの会話、初登場時の紹介カットイン、オート・早送り・ログ・スキップ、途中保存に対応。
+- 新キャラクター4人（剛・栞那・結月・龍太）。それぞれの特別編をクリアすると使えます。
+- 着せ替え（夏服・ハロウィン・弓道着、自分の画面だけに表示）。キャラクター選択とギャラリーは8人に。
+- アチーブメント（称号）と枠、キャラクターごとのテーマ曲、文化祭編クリアのごほうび。
+- 通信対戦で新しい4人も使えます。古いバージョン（v0.5.0以前）は新しい4人がいる部屋に入れず、更新の案内が出ます。
+- Unity版の特別編（夏休み編・弓道編・幼馴染編）は、Web版とは一部の場面が違うUnity版だけの内容です。
+
+> 本作のキャラクターは、フェニチルさんの創作作品『天涯比隣』のキャラクターデザインと名前をお借りした二次創作です。性格・関係性・ストーリー・設定はすべて本作独自のもので、原作とは関係ありません。
+
+## v0.5.0 の更新内容（2026-09-30）
 
 - ミッション（6種）を追加。ストーリー第1話のクリアで解放され、条件を守って勝つとカードスリーブ（カードの裏面デザイン）がもらえます。
 - バランス調整：スキル「ロマン仕込み」の追加（まかない補給と入れ替え）、加工アイテムの交換点数の見直し、先攻の1ターン目はイベント不可、まな板の逆転効果（負けているとき対戦中1回、イベント1枚を捨てて1枚引く）など。
@@ -65,4 +76,4 @@ Unity版は現在、WebGL・ブラウザプレイおよびiPhoneには対応し�
 
 このリポジトリは紹介ページと配布用の管理リポジトリです。
 GitHub Pagesは`main`のルートを静的配信します。
-配布ファイルは、このリポジトリのGitHub Releasesにバージョンごとに置いています（最新は `v0.5.0`）。
+配布ファイルは、このリポジトリのGitHub Releasesにバージョンごとに置いています（最新は `v0.6.0`）。
